@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon --watch public -e .txt,.csv ./index.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "inert": "^5.1.3",
+    "nodemon": "^1.19.1"
+  }
+}
